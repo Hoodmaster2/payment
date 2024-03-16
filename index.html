@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Purchase</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Welcome to our store!</h1>
+  <form id="productForm">
+    <label for="products">Select Product:</label>
+    <select id="products" name="products">
+      <option value="dtb">DTB Firmware</option>
+      <option value="spy">Spy App</option>
+      <option value="key">Darkweb Key</option>
+      <option value="activator">Windows Activator</option>
+    </select>
+  </form>
+  <div id="priceDisplay"></div>
+  <div id="wallets">
+    <h2>Payment Options:</h2>
+    <p>BTC: 3CtBHdtRgA372iYkvp9oqtQAFyeiCbH8P6 <button onclick="copyToClipboard('3CtBHdtRgA372iYkvp9oqtQAFyeiCbH8P6')">Copy</button></p>
+    <p>USDT TRC-20: TAzyFwco9pfHiwjmLfxTRxJFPAkqs61NYy <button onclick="copyToClipboard('TAzyFwco9pfHiwjmLfxTRxJFPAkqs61NYy')">Copy</button></p>
+    <p>ETH: 0x2CF3fC0D4D700BF1D2a1953F73f59b3031113064 <button onclick="copyToClipboard('0x2CF3fC0D4D700BF1D2a1953F73f59b3031113064')">Copy</button></p>
+    <p>USDC: 0x2CF3fC0D4D700BF1D2a1953F73f59b3031113064 <button onclick="copyToClipboard('0x2CF3fC0D4D700BF1D2a1953F73f59b3031113064')">Copy</button></p>
+  </div>
+  <div id="whatsappLink">
+    <h2>Forward Payment Screenshot:</h2>
+    <p>Forward your payment screenshot on WhatsApp <a href="https://api.whatsapp.com/send?phone=+254759492914&text=Hi+I+have+purchased+the+key+here+is+the+screenshot">here</a>.</p>
+  </div>
+  <div id="tutorial">
+    <h2>Transaction Tutorial:</h2>
+    <p>Follow this <a href="https://paxful.com/university/priceless-bitcoin-buying-and-selling-tips/">tutorial</a> on how to buy and sell Bitcoin on Paxful.</p>
+  </div>
+  <div id="signup">
+    <p>Sign up for Paxful <a href="https://paxful.com/register?r=ZxY7neq4Ddp">here</a>.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

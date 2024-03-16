@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #FF1053; /* Text color */
+  background-image: url('cryptos.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #007bff;
+  font-weight: bold; /* Making headings bold */
+}
+
+label, select, p {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #f0f0f0; /* Light gray background color for text */
+  padding: 5px 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* Making buttons bold */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#priceDisplay {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold; /* Making price display bold */
+}
+
+#wallets {
+  margin-top: 20px;
+}
+
+#tutorial {
+  margin-top: 20px;
+}
+
+#signup {
+  margin-top: 20px;
+}
