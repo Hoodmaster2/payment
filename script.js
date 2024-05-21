@@ -15,6 +15,8 @@ document.getElementById('products').addEventListener('change', function() {
       break;
     case 'activator':
       price = 8;
+    case 'script':
+      price = 12;
       break;
     default:
       price = 0;
